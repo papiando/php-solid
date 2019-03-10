@@ -1,0 +1,21 @@
+{
+    "name": "papiando/php-solid",
+    "version": "0.0.1",
+    "description": "PHP Solid Server",
+    "keywords": ["openid", "solid-server"],
+    "license": "none",
+    "authors": [
+        {
+            "name": "papiando",
+            "homepage": "https://www.papiando.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "openid/php-openid"
+    },
+    "autoload": {
+        "classmap": ["Auth"]
+    },
+    "include-path": ["."]
+}
